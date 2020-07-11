@@ -25,10 +25,12 @@ namespace mvc_admin_lte_template
             bundles.Add(new StyleBundle("~/Content/css").Include(
                       "~/Content/bootstrap.css",
                       "~/adminlte/plugins/fontawesome-free/css/all.min.css",
+                      "~/adminlte/plugins/overlayScrollbars/css/OverlayScrollbars.min.css",
                       "~/adminlte/css/adminlte.min.css",
                       "~/Content/site.css"));
 
             bundles.Add(new ScriptBundle("~/adminlte/js").Include(
+                "~/adminlte/plugins/overlayScrollbars/js/OverlayScrollbars.min.js",
              "~/adminlte/js/adminlte.min.js"));
         }
     }
